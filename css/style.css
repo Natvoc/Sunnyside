@@ -5,12 +5,7 @@ body{
     padding: 0;
     text-align: center;
 }
- .attribution { 
-    font-size: 11px; text-align: center;
-}
- .attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
+
 .container{
     display: flex;
     justify-content: center;
@@ -77,6 +72,29 @@ body{
 .more .pink{
     text-decoration: underline solid hsl(7, 99%, 70%) 7px;
 }
+.graphic{
+    margin-top: -18em;
+}
+.graphic h2{
+    color: hsl(167, 40%, 24%);
+    font-size: 1.8;
+    margin-top: 1.5em;
+}
+.graphic p{
+    color: hsl(167, 40%, 24%);
+}
+
+.photography{
+    margin-top: -18em;
+}
+.photography h2{
+    color: hsl(198, 62%, 26%);
+    font-size: 1.8;
+    margin-top: 1.5em;
+}
+.photography p{
+    color: hsl(198, 62%, 26%);
+}
 
 
 
@@ -89,10 +107,13 @@ body{
 
 
 
-
-
-
-
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+ .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 a{
     text-decoration: none;
 }
+
