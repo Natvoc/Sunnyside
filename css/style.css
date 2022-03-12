@@ -5,7 +5,6 @@ body{
     padding: 0;
     text-align: center;
 }
-
  .attribution { 
     font-size: 11px; text-align: center;
 }
@@ -16,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .header{
     width: 100%;
@@ -24,7 +24,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: local;
   
 }
 .menu{
@@ -34,12 +34,65 @@ body{
 }
 .motto{
     color: #fff;
-    font-size: 2.6em;
+    font-size: 2.4em;
     font-family: 'Fraunces', serif;
     font-weight: 900;
     letter-spacing: 0.13em;
-    margin-top: 2em;
+    margin-top: 1.2em;
 }
 .down{
-    margin-top: 6em;
+    margin-top: 5em;
+}
+.content-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.content-info{
+    padding: 1.7em;
+}
+.content-info h2{
+    font-size: 2em;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: hsl(211, 20%, 25%); 
+}
+.content-info p{
+    color: hsl(200, 2%, 68%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+.more h4{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: #000;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.more .yellow{
+    text-decoration: underline solid hsl(51, 100%, 49%) 7px;
+}
+.more .pink{
+    text-decoration: underline solid hsl(7, 99%, 70%) 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
 }
