@@ -19,8 +19,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: local;
-  
+    background-attachment: local; 
 }
 .menu{
     display: flex;
@@ -96,15 +95,34 @@ body{
     color: hsl(198, 62%, 26%);
 }
 
+.testimonials{
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+.testimonials h3{
+    font-family: 'Fraunces', serif;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    color: rgb(160, 160, 160);
+}
+
+.photo-client img{
+    border-radius: 50%;
+    width: 6em;
+    margin-top: 3em;
+
+}
+.parraph-client{
+    padding: 2.3em;
+    color: rgb(75, 73, 73);
+    font-size: 1.1em;
+}
 
 
-
-
-
-
-
-
-
+.name-client{
+    font-family: 'Fraunces', serif;
+    font-size: 2em;
+}
 
 
 .attribution { 
