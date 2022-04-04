@@ -101,36 +101,66 @@ body{
 }
 .testimonials h3{
     font-family: 'Fraunces', serif;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 0.15em;
     color: rgb(160, 160, 160);
+    font-weight: 700;
+
 }
 
 .photo-client img{
     border-radius: 50%;
-    width: 6em;
-    margin-top: 3em;
+    width: 5em;
+    margin-top: 5em;
 
 }
 .parraph-client{
-    padding: 2.3em;
-    color: rgb(75, 73, 73);
-    font-size: 1.1em;
+    padding: 1.9em;
+    font-family: 'Fraunces', serif;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+   
 }
 
 
 .name-client{
     font-family: 'Fraunces', serif;
-    font-size: 2em;
+    font-size: 1.2em;
+}
+
+.job{
+    color: rgb(129, 129, 129);
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-gallery img{
+    width: 100%;
+    height: 100%;
 }
 
 
-.attribution { 
-    font-size: 11px; text-align: center;
-}
- .attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
+
+
+
+
+
+
+
+
+
 a{
     text-decoration: none;
 }
