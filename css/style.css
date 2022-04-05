@@ -155,6 +155,7 @@ footer{
     width: 100%;
     height: 20em;    
     color: hsl(168, 36%, 30%);
+    margin-bottom: 4em;
 
 }
 
@@ -169,12 +170,18 @@ footer{
     display: flex;
     justify-content: space-between;
     margin: 2em;
-    font-size: 1.3em;
+    font-size: 1.3em; 
     
+}
+.social{
+    justify-content: space-between;
+    padding: 2em 2em 0em 2em;
     
 }
 
-
+.social a{
+    margin: 0.8em;
+}
 
 
 
