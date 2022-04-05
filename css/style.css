@@ -4,7 +4,6 @@ body{
     padding: 0;
     text-align: center;
 }
-
 .container{
     display: flex;
     justify-content: center;
@@ -81,7 +80,6 @@ body{
 .graphic p{
     color: hsl(167, 40%, 24%);
 }
-
 .photography{
     margin-top: -18em;
 }
@@ -104,14 +102,12 @@ body{
     letter-spacing: 0.15em;
     color: rgb(160, 160, 160);
     font-weight: 700;
-
 }
 
 .photo-client img{
     border-radius: 50%;
     width: 5em;
     margin-top: 5em;
-
 }
 .parraph-client{
     padding: 1.9em;
@@ -120,36 +116,29 @@ body{
     font-weight: 500;
    
 }
-
-
 .name-client{
     font-family: 'Fraunces', serif;
     font-size: 1.2em;
 }
-
 .job{
     color: rgb(129, 129, 129);
     margin-top: 0.5em;
     font-size: 1.2em;
 }
-
 .gallery{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .image-gallery{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .image-gallery img{
     width: 100%;
     height: 100%;
 }
-
 footer{
     background-color: #76bfae;
     width: 100%;
@@ -157,39 +146,86 @@ footer{
     color: hsl(168, 36%, 30%);
     margin-bottom: 2em;
 }
-
 .title-footer{
     font-size: 2em;
     font-family: 'Poppins', sans-serif;
     padding-top: 1.5em;
     
 }
-
 .menu-footer{
     display: flex;
     justify-content: space-between;
     margin:  2em 2em 3em 2em;
-    font-size: 1.3em; 
-    
+    font-size: 1.3em;
 }
 .social{
     justify-content: space-between;
-    margin-bottom: 20em;
-
-    
+    margin-bottom: 20em;  
 }
 
 .social a{
     margin: 0.8em;
 }
 
-
-
-
-
-
-
 a{
     text-decoration: none;
 }
 
+@media (min-width: 1200px) {
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/desktop/image-header.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local; 
+    }
+    .row1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        text-align: left;
+
+    }
+    .row2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+
+    }
+    .row3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+
+    }
+    .content-image img{
+        width: 38.4em;
+    }
+    .content-info{
+        text-align: left;
+        margin: 2.5em;
+    }
+    .content-info h2{
+        font-size: 2.6em;
+    }
+    .content-info p{
+        text-align: left;
+        font-size: 1.2em;
+    }    
+    .content-info .more{
+        font-size: 1em;
+    }
+    .par img{
+        width: 40em
+    }
+    .graphic{
+        margin-top: 40em;
+    }
+    .photography{
+        margin-top: 40em;
+    }
+}
